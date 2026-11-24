@@ -22,10 +22,10 @@
       <rect width="1000" height="340" rx="24"/>
     </clipPath>
       <linearGradient id="neonSweep" x1="0.5" y1="0.5" x2="999.5" y2="0.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.55"/>
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.75"/>
       <stop offset="18%" stop-color="#4F46E5" stop-opacity="1"/>
       <stop offset="82%" stop-color="#4F46E5" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.75"/>
 </linearGradient>
       <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
