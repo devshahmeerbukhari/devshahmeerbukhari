@@ -76,8 +76,7 @@
       <text x="351" y="284" text-anchor="middle" fill="#CBD5E1">RAG</text>
       <rect x="388" y="266" width="128" height="28" rx="14" fill="#111827" stroke="#1F2937"/>
       <text x="452" y="284" text-anchor="middle" fill="#CBD5E1">Microservices</text>
-        <rect x="0.5" y="0.5" width="1199.0" height="319.0" rx="23.5" fill="none" stroke="url(#neonSweep)" stroke-width="3" stroke-linecap="round" stroke-dasharray="180 2816" filter="url(#glow)" opacity="0.95"><animate attributeName="stroke-dashoffset" from="0" to="-2996" dur="4s" repeatCount="indefinite"/></rect>
-  </g>
+      </g>
 
     <g filter="url(#cardShadow)">
       <rect x="728" y="56" width="408" height="210" rx="18" fill="#020617"/>
@@ -100,5 +99,9 @@
     <rect x="936" y="249" width="7" height="14" rx="1" fill="#22D3EE"/>
 
     <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" stroke="#1E293B"/>
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-dasharray="700 2296" opacity="0.22" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2996" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-dasharray="460 2536" opacity="0.45" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2996" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-dasharray="260 2736" opacity="1.0" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2996" dur="6s" repeatCount="indefinite"/></rect>
+
   </g>
 </svg>

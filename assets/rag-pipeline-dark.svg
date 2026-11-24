@@ -75,8 +75,7 @@
       <text x="800" y="164" font-size="19" font-weight="700" fill="#F8FAFC">Grounded output</text>
       <text x="800" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">OpenAI / Gemini</text>
       <text x="800" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">citations + guardrails</text>
-        <rect x="0.5" y="0.5" width="999.0" height="339.0" rx="23.5" fill="none" stroke="url(#neonSweep)" stroke-width="3" stroke-linecap="round" stroke-dasharray="180 2456" filter="url(#glow)" opacity="0.95"><animate attributeName="stroke-dashoffset" from="0" to="-2636" dur="4s" repeatCount="indefinite"/></rect>
-  </g>
+      </g>
 
     <path d="M238 161H278" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
     <path d="M486 161H526" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -94,5 +93,9 @@
     <text x="950" y="279" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">feedback → retrieval</text>
 
     <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" stroke="#1E293B"/>
+    <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-dasharray="700 1936" opacity="0.22" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2636" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-dasharray="460 2176" opacity="0.45" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2636" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-dasharray="260 2376" opacity="1.0" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="2636" dur="6s" repeatCount="indefinite"/></rect>
+
   </g>
 </svg>
