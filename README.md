@@ -119,10 +119,10 @@ I build products that can start small and grow without a rewrite: clear service 
 
 <div align="center">
 
-<img width="49%" src="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=8&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=tokyonight&hide_border=true" alt="Most used languages" />
+<img height="190" src="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=6&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=tokyonight&hide_border=true" alt="Most used languages" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=tokyonight&hide_border=true&area=true" alt="GitHub activity graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=tokyo-night&area=true&height=280&days=30&hide_border=true&line=6366F1&point=22D3EE&area_color=6366F1&color=94A3B8&title_color=A5B4FC&custom_title=Contribution%20activity" alt="GitHub activity graph" />
 
 </div>
 
