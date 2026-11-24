@@ -31,10 +31,11 @@
       <rect width="1200" height="320" rx="24"/>
     </clipPath>
       <linearGradient id="neonSweep" x1="0.5" y1="0.5" x2="1199.5" y2="0.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-    </linearGradient>
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="18%" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.55"/>
+</linearGradient>
       <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
