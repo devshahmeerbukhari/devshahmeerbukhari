@@ -16,6 +16,9 @@
 <a href="https://github.com/devshahmeerbukhari">
   <img src="https://img.shields.io/badge/GitHub-devshahmeerbukhari-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
+<a href="https://www.linkedin.com/in/shahmeer-bukhari/">
+  <img src="https://img.shields.io/badge/LinkedIn-Shahmeer_Bukhari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 <a href="https://muhammad-shahmeer-bukhari-portfolio.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-Live-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
@@ -73,17 +76,11 @@ I care about the things that survive production — typed contracts, observable 
 
 A demo is easy. Production retrieval is the hard part. I build RAG systems as **data pipelines first** and layer the model on top — so answers stay grounded, fast, and measurable.
 
-```mermaid
-flowchart LR
-    A["Sources<br/>PDF · docs · web · DB"] --> B["Clean & chunk<br/>structure-aware"]
-    B --> C["Embed<br/>OpenAI / Gemini"]
-    C --> D[("Pinecone<br/>vector index")]
-    Q["User query"] --> E["Retrieve<br/>filters + rerank"]
-    D --> E
-    E --> F["Assemble context<br/>with citations"]
-    F --> G["Generate<br/>OpenAI / Gemini"]
-    G --> H["Grounded answer<br/>+ sources"]
-```
+<div align="center">
+
+<img src="./assets/rag-pipeline.svg" alt="RAG pipeline: ingest, chunk and embed, retrieve with reranking, generate grounded answers, and evaluate continuously" width="100%" />
+
+</div>
 
 - **Ingestion** — normalize PDFs, documentation, web pages, and database content into clean, chunkable text.
 - **Retrieval quality** — metadata filters, hybrid search, reranking, and context windows tuned to the task.
@@ -95,19 +92,11 @@ flowchart LR
 
 I build products that can start small and grow without a rewrite: clear service ownership, typed boundaries, and deployment automation from day one.
 
-```mermaid
-flowchart LR
-    C["Next.js web · React Native"] --> G["API gateway"]
-    G --> A["Auth service"]
-    G --> B["Billing service"]
-    G --> P["Core product service"]
-    G --> R["AI / RAG service"]
-    A --> M[("MongoDB")]
-    P --> M
-    R --> V[("Pinecone")]
-    P --> S[("S3")]
-    P --> Q[("Redis")]
-```
+<div align="center">
+
+<img src="./assets/saas-architecture.svg" alt="SaaS architecture: Next.js and React Native clients, API gateway, auth/billing/core/AI microservices, MongoDB, Redis, S3, Pinecone, and CI/CD" width="100%" />
+
+</div>
 
 - **Multi-tenant foundations** — org-scoped data, role-based access, and audit-friendly models.
 - **Independent services** — auth, billing, core product, and AI as separate concerns with clear contracts.
@@ -164,6 +153,9 @@ Have a product to build, an AI feature to ship, or a backend that needs untangli
 
 <a href="https://github.com/devshahmeerbukhari">
   <img src="https://img.shields.io/badge/GitHub-devshahmeerbukhari-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/shahmeer-bukhari/">
+  <img src="https://img.shields.io/badge/LinkedIn-Shahmeer_Bukhari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="https://muhammad-shahmeer-bukhari-portfolio.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-View_my_work-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />

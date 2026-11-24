@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">RAG pipeline — ingest, embed, retrieve, generate, evaluate</title>
+  <desc id="desc">A production RAG architecture: sources flow into chunking and embeddings, are indexed in Pinecone, retrieved with filters and reranking, then used to generate grounded answers with citations. A continuous evaluation loop measures retrieval quality, faithfulness, latency, and cost.</desc>
+
+  <defs>
+    <linearGradient id="topline" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(960 10) rotate(135) scale(360 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#475569"/>
+    </marker>
+    <clipPath id="frame">
+      <rect width="1000" height="340" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="340" fill="#0B1120"/>
+    <rect width="1000" height="340" fill="url(#grid)" opacity="0.35"/>
+    <rect width="1000" height="340" fill="url(#halo)"/>
+    <rect width="1000" height="4" fill="url(#topline)"/>
+
+    <text x="40" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="2" fill="#A5B4FC">AI ENGINEERING / RAG PIPELINE</text>
+    <text x="40" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="-0.6" fill="#F8FAFC">Retrieval that earns its place in production</text>
+    <text x="960" y="72" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748B">grounded · cited · evaluated</text>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <rect x="40" y="108" width="190" height="106" rx="14" fill="#111827" stroke="#1F2937"/>
+      <circle cx="56" cy="130" r="3" fill="#818CF8"/>
+      <text x="68" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#818CF8">01 / INGEST</text>
+      <text x="56" y="164" font-size="19" font-weight="700" fill="#F8FAFC">Sources</text>
+      <text x="56" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">PDF · docs · web · DB</text>
+      <text x="56" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">clean + smart chunks</text>
+
+      <rect x="288" y="108" width="190" height="106" rx="14" fill="#111827" stroke="#1F2937"/>
+      <circle cx="304" cy="130" r="3" fill="#A78BFA"/>
+      <text x="316" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#A78BFA">02 / EMBED</text>
+      <text x="304" y="164" font-size="19" font-weight="700" fill="#F8FAFC">Chunk + embed</text>
+      <text x="304" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">OpenAI / Gemini</text>
+      <text x="304" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">Pinecone vector index</text>
+
+      <rect x="536" y="108" width="190" height="106" rx="14" fill="#111827" stroke="#1F2937"/>
+      <circle cx="552" cy="130" r="3" fill="#22D3EE"/>
+      <text x="564" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#22D3EE">03 / RETRIEVE</text>
+      <text x="552" y="164" font-size="19" font-weight="700" fill="#F8FAFC">Retrieve</text>
+      <text x="552" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">hybrid + rerank</text>
+      <text x="552" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">metadata filters</text>
+
+      <rect x="784" y="108" width="190" height="106" rx="14" fill="#111827" stroke="#1F2937"/>
+      <circle cx="800" cy="130" r="3" fill="#34D399"/>
+      <text x="812" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#34D399">04 / GENERATE</text>
+      <text x="800" y="164" font-size="19" font-weight="700" fill="#F8FAFC">Grounded output</text>
+      <text x="800" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">OpenAI / Gemini</text>
+      <text x="800" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">citations + guardrails</text>
+    </g>
+
+    <path d="M238 161H278" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <path d="M486 161H526" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <path d="M734 161H774" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" fill="#475569" text-anchor="middle">
+      <text x="258" y="151">chunks</text>
+      <text x="506" y="151">top-k</text>
+      <text x="754" y="151">context</text>
+    </g>
+
+    <rect x="40" y="242" width="934" height="62" rx="14" fill="#0F172A" stroke="#1E293B"/>
+    <circle cx="64" cy="273" r="4" fill="#34D399"/>
+    <text x="78" y="268" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#34D399">05 / CONTINUOUS EVALUATION</text>
+    <text x="78" y="288" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Golden set · retrieval hit-rate · faithfulness · latency · token cost</text>
+    <text x="950" y="279" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">feedback → retrieval</text>
+
+    <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" stroke="#1E293B"/>
+  </g>
+</svg>
