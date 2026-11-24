@@ -26,11 +26,18 @@
     <clipPath id="frame">
       <rect width="1200" height="320" rx="24"/>
     </clipPath>
-      <linearGradient id="neonSweep" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <linearGradient id="neonSweep" x1="0.5" y1="0.5" x2="1199.5" y2="0.5" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#4F46E5" stop-opacity="0"/>
       <stop offset="50%" stop-color="#4F46E5" stop-opacity="1"/>
       <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
     </linearGradient>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -38,7 +45,6 @@
     <rect width="1200" height="320" fill="url(#grid)" opacity="0.65"/>
     <rect width="1200" height="320" fill="url(#halo)"/>
     <rect width="1200" height="4" fill="url(#topline)"/>
-    <rect x="-220" y="1" width="220" height="3" rx="1.5" fill="url(#neonSweep)" opacity="0.95"><animate attributeName="x" from="-220" to="1200" dur="2s" repeatCount="indefinite"/></rect>
 
 
     <circle cx="1132" cy="286" r="128" stroke="#C7D2FE" stroke-opacity="0.55"/>
@@ -64,7 +70,8 @@
       <text x="351" y="284" text-anchor="middle" fill="#334155">RAG</text>
       <rect x="388" y="266" width="128" height="28" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
       <text x="452" y="284" text-anchor="middle" fill="#334155">Microservices</text>
-    </g>
+        <rect x="0.5" y="0.5" width="1199.0" height="319.0" rx="23.5" fill="none" stroke="url(#neonSweep)" stroke-width="3" stroke-linecap="round" stroke-dasharray="180 2816" filter="url(#glow)" opacity="0.95"><animate attributeName="stroke-dashoffset" from="0" to="-2996" dur="4s" repeatCount="indefinite"/></rect>
+  </g>
 
     <g filter="url(#cardShadow)">
       <rect x="728" y="56" width="408" height="210" rx="18" fill="#0B1120"/>
