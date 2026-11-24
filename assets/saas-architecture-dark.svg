@@ -21,6 +21,13 @@
     <clipPath id="frame">
       <rect width="1000" height="400" rx="24"/>
     </clipPath>
+      <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -33,6 +40,7 @@
     <text x="40" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="-0.6" fill="#F8FAFC">Start small. Scale without a rewrite.</text>
 
     <rect x="40" y="120" width="190" height="96" rx="14" fill="#111827" stroke="#1F2937"/>
+    <rect x="40" y="120" width="190" height="96" rx="14.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
     <text x="56" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#A5B4FC">CLIENTS</text>
     <text x="56" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="650" fill="#F8FAFC">Next.js web</text>
     <text x="56" y="187" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#94A3B8">React Native app</text>
@@ -42,6 +50,7 @@
     <text x="253" y="157" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" fill="#475569">HTTPS</text>
 
     <rect x="286" y="132" width="154" height="72" rx="14" fill="#111827" stroke="#1F2937"/>
+    <rect x="286" y="132" width="154" height="72" rx="14.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
     <text x="302" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1.2" fill="#818CF8">EDGE</text>
     <text x="302" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#F8FAFC">API Gateway</text>
     <text x="302" y="190" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">auth · rate limits</text>
@@ -55,21 +64,25 @@
 
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
       <rect x="512" y="70" width="208" height="56" rx="12" fill="#111827" stroke="#1F2937"/>
+    <rect x="512" y="70" width="208" height="56" rx="12.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <rect x="512" y="82" width="3" height="32" rx="1.5" fill="#818CF8"/>
       <text x="528" y="92" font-size="13.5" font-weight="650" fill="#F8FAFC">Auth</text>
       <text x="528" y="109" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">sessions · RBAC</text>
 
       <rect x="512" y="140" width="208" height="56" rx="12" fill="#111827" stroke="#1F2937"/>
+    <rect x="512" y="140" width="208" height="56" rx="12.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <rect x="512" y="152" width="3" height="32" rx="1.5" fill="#A78BFA"/>
       <text x="528" y="162" font-size="13.5" font-weight="650" fill="#F8FAFC">Billing</text>
       <text x="528" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">plans · webhooks</text>
 
       <rect x="512" y="210" width="208" height="56" rx="12" fill="#111827" stroke="#1F2937"/>
+    <rect x="512" y="210" width="208" height="56" rx="12.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <rect x="512" y="222" width="3" height="32" rx="1.5" fill="#22D3EE"/>
       <text x="528" y="232" font-size="13.5" font-weight="650" fill="#F8FAFC">Core product</text>
       <text x="528" y="249" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">product APIs</text>
 
       <rect x="512" y="280" width="208" height="56" rx="12" fill="#111827" stroke="#1F2937"/>
+    <rect x="512" y="280" width="208" height="56" rx="12.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <rect x="512" y="292" width="3" height="32" rx="1.5" fill="#34D399"/>
       <text x="528" y="302" font-size="13.5" font-weight="650" fill="#F8FAFC">AI / RAG</text>
       <text x="528" y="319" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">retrieval · agents</text>
@@ -80,6 +93,7 @@
     <path d="M752 203H772" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
 
     <rect x="780" y="70" width="180" height="266" rx="14" fill="#0F172A" stroke="#1E293B"/>
+    <rect x="780" y="70" width="180" height="266" rx="14.0" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
     <text x="796" y="94" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1.2" fill="#94A3B8">DATA LAYER</text>
     <line x1="780" y1="106" x2="960" y2="106" stroke="#1E293B"/>
 
@@ -105,5 +119,6 @@
     <text x="500" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">CI/CD · GitHub Actions      OBSERVABILITY · logs / metrics / traces      INFRA · Docker · Vercel · AWS S3</text>
 
     <rect x="0.5" y="0.5" width="999" height="399" rx="23.5" stroke="#1E293B"/>
+    <rect x="0.5" y="0.5" width="999" height="399" rx="23.5" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
   </g>
 </svg>

@@ -21,6 +21,13 @@
     <clipPath id="frame">
       <rect width="1000" height="340" rx="24"/>
     </clipPath>
+      <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -35,6 +42,7 @@
 
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
       <rect x="40" y="108" width="190" height="106" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="40" y="108" width="190" height="106" rx="14.0" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <circle cx="56" cy="130" r="3" fill="#4F46E5"/>
       <text x="68" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#4F46E5">01 / INGEST</text>
       <text x="56" y="164" font-size="19" font-weight="700" fill="#0F172A">Sources</text>
@@ -42,6 +50,7 @@
       <text x="56" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">clean + smart chunks</text>
 
       <rect x="288" y="108" width="190" height="106" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="288" y="108" width="190" height="106" rx="14.0" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <circle cx="304" cy="130" r="3" fill="#7C3AED"/>
       <text x="316" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#7C3AED">02 / EMBED</text>
       <text x="304" y="164" font-size="19" font-weight="700" fill="#0F172A">Chunk + embed</text>
@@ -49,6 +58,7 @@
       <text x="304" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">Pinecone vector index</text>
 
       <rect x="536" y="108" width="190" height="106" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="536" y="108" width="190" height="106" rx="14.0" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <circle cx="552" cy="130" r="3" fill="#0891B2"/>
       <text x="564" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#0891B2">03 / RETRIEVE</text>
       <text x="552" y="164" font-size="19" font-weight="700" fill="#0F172A">Retrieve</text>
@@ -56,6 +66,7 @@
       <text x="552" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#64748B">metadata filters</text>
 
       <rect x="784" y="108" width="190" height="106" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="784" y="108" width="190" height="106" rx="14.0" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
       <circle cx="800" cy="130" r="3" fill="#059669"/>
       <text x="812" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#059669">04 / GENERATE</text>
       <text x="800" y="164" font-size="19" font-weight="700" fill="#0F172A">Grounded output</text>
@@ -73,11 +84,13 @@
     </g>
 
     <rect x="40" y="242" width="934" height="62" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="40" y="242" width="934" height="62" rx="14.0" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
     <circle cx="64" cy="273" r="4" fill="#059669"/>
     <text x="78" y="268" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.3" fill="#059669">05 / CONTINUOUS EVALUATION</text>
     <text x="78" y="288" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569">Golden set · retrieval hit-rate · faithfulness · latency · token cost</text>
     <text x="950" y="279" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">feedback → retrieval</text>
 
     <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" stroke="#E2E8F0"/>
+    <rect x="0.5" y="0.5" width="999" height="339" rx="23.5" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
   </g>
 </svg>

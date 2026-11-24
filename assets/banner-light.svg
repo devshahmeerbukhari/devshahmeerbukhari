@@ -26,6 +26,13 @@
     <clipPath id="frame">
       <rect width="1200" height="320" rx="24"/>
     </clipPath>
+      <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -63,6 +70,7 @@
       <rect x="728" y="56" width="408" height="210" rx="18" fill="#0B1120"/>
     </g>
     <rect x="728.5" y="56.5" width="407" height="209" rx="17.5" stroke="#22304A"/>
+    <rect x="728.5" y="56.5" width="407" height="209" rx="17.5" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
     <circle cx="752" cy="80" r="5" fill="#FF5F57"/>
     <circle cx="770" cy="80" r="5" fill="#FEBC2E"/>
     <circle cx="788" cy="80" r="5" fill="#28C840"/>
@@ -80,5 +88,6 @@
     <rect x="936" y="249" width="7" height="14" rx="1" fill="#22D3EE"/>
 
     <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" stroke="#E2E8F0"/>
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" fill="none" stroke="#4F46E5" stroke-width="2" stroke-dasharray="24 120" stroke-linecap="round" filter="url(#neon)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="2s" repeatCount="indefinite"/></rect>
   </g>
 </svg>
