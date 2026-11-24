@@ -127,10 +127,22 @@ I build products that can start small and grow without a rewrite: clear service 
 
 <div align="center">
 
-<img height="190" src="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=6&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=tokyonight&hide_border=true" alt="Most used languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=tokyonight&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=default&hide_border=true" />
+  <img height="190" src="https://streak-stats.demolab.com?user=devshahmeerbukhari&theme=default&hide_border=true" alt="GitHub contribution streak" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=6&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=tokyonight&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=6&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=default&hide_border=true" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devshahmeerbukhari&layout=compact&langs_count=6&hide=css%2Chtml&size_weight=0.25&count_weight=0.75&theme=default&hide_border=true" alt="Most used languages" />
+</picture>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=tokyo-night&area=true&height=280&days=30&hide_border=true&line=6366F1&point=22D3EE&area_color=6366F1&color=94A3B8&title_color=A5B4FC&custom_title=Contribution%20activity" alt="GitHub activity graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=tokyo-night&area=true&height=280&days=30&hide_border=true&line=6366F1&point=22D3EE&area_color=6366F1&color=94A3B8&title_color=A5B4FC&custom_title=Contribution%20activity" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=github&area=true&height=280&days=30&hide_border=true&bg_color=FFFFFF&line=6366F1&point=22D3EE&area_color=6366F1&color=475569&title_color=4F46E5&custom_title=Contribution%20activity" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=devshahmeerbukhari&theme=github&area=true&height=280&days=30&hide_border=true&bg_color=FFFFFF&line=6366F1&point=22D3EE&area_color=6366F1&color=475569&title_color=4F46E5&custom_title=Contribution%20activity" alt="GitHub activity graph" />
+</picture>
 
 </div>
 
