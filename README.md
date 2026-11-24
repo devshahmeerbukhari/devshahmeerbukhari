@@ -174,7 +174,7 @@ Have a product to build, an AI feature to ship, or a backend that needs untangli
 <a href="https://github.com/devshahmeerbukhari">
   <img src="https://img.shields.io/badge/GitHub-devshahmeerbukhari-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="https://www.linkedin.com/in/shahmeer-bukhari/">
+<a href="https://www.linkedin.com/in/m-shahmeer-bukharii">
   <img src="https://img.shields.io/badge/LinkedIn-Shahmeer_Bukhari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="https://muhammad-shahmeer-bukhari-portfolio.vercel.app">
