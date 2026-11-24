@@ -78,7 +78,11 @@ A demo is easy. Production retrieval is the hard part. I build RAG systems as **
 
 <div align="center">
 
-<img src="./assets/rag-pipeline.svg" alt="RAG pipeline: ingest, chunk and embed, retrieve with reranking, generate grounded answers, and evaluate continuously" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/rag-pipeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/rag-pipeline-light.svg" />
+  <img src="./assets/rag-pipeline-light.svg" alt="RAG pipeline: ingest, chunk and embed, retrieve with reranking, generate grounded answers, and evaluate continuously" width="100%" />
+</picture>
 
 </div>
 
@@ -94,7 +98,11 @@ I build products that can start small and grow without a rewrite: clear service 
 
 <div align="center">
 
-<img src="./assets/saas-architecture.svg" alt="SaaS architecture: Next.js and React Native clients, API gateway, auth/billing/core/AI microservices, MongoDB, Redis, S3, Pinecone, and CI/CD" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/saas-architecture-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/saas-architecture-light.svg" />
+  <img src="./assets/saas-architecture-light.svg" alt="SaaS architecture: Next.js and React Native clients, API gateway, auth/billing/core/AI microservices, MongoDB, Redis, S3, Pinecone, and CI/CD" width="100%" />
+</picture>
 
 </div>
 
@@ -169,4 +177,8 @@ Have a product to build, an AI feature to ship, or a backend that needs untangli
   <sub>Want to see more? Explore my portfolio or start a conversation on GitHub — let's build something worth shipping.</sub>
 </p>
 
-<img src="./assets/footer.svg" alt="Build · Ship · Scale" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devshahmeerbukhari/devshahmeerbukhari/main/assets/footer-light.svg" />
+  <img src="./assets/footer-light.svg" alt="Build · Ship · Scale" width="100%" />
+</picture>
